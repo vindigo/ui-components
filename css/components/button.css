@@ -19,6 +19,7 @@
   border-radius: 4px;
   font-weight: bold;
   background: #6AD58B;
+  opacity:1.0;
 }
 
 .btn-standard:hover {
@@ -26,4 +27,5 @@
   background: #6AD58B;
   text-decoration: none;
   color: white;
+  opacity: 0.8;
 }

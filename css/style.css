@@ -9,7 +9,10 @@
 @import url("components/badge.css");
 @import url("components/banner.css");
 @import url("components/tabs.css");
-@import url("components/list.css"); */
+@import url("components/list.css");
+@import url("components/message.css");
+@import url("components/navbar.css");
+@import url("components/footer.css");
 
 /* --- Fonts --- */
 body {
@@ -29,4 +32,8 @@ hr {
   display: block;
   border-top: 1px solid #748ffc;
   margin-top: 5.0rem;
+}
+
+.title {
+  color: #748ffc;
 }

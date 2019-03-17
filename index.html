@@ -10,6 +10,7 @@
   <!-- styles -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+  <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -25,19 +26,24 @@
   <div class="container">
     <h1 class="text-center">UI component Library</h1>
 
-    <h2>Avatar design</h2>
-    <img src="http://placehold.it/50x50" alt="" class="avatar">
+    <h2 class="title">Avatar design</h2>
     <img src="http://placehold.it/50x50" alt="" class="avatar-sm">
+    <img src="http://placehold.it/50x50" alt="" class="avatar">
+    <img src="http://placehold.it/50x50" alt="" class="avatar-lg">
+    <img src="http://placehold.it/50x50" alt="" class="avatar-bordered">
+    <img src="http://placehold.it/50x50" alt="" class="avatar-square">
+    <!--/ avatar -->
 
     <hr />
 
-    <h2>Button design</h2>
+    <h2 class="title">Button design</h2>
     <a href="#" class="btn-minimal">Write stories</a>
     <a href="#" class="btn-standard">Start now</a>
+    <!--/ button -->
 
     <hr />
 
-    <h2>Dropdown design</h2>
+    <h2 class="title">Dropdown design</h2>
     <div class="dropdown">
       <img src="http://placehold.it/50x50" alt="" class="avatar dropdown-toggle" id="navbar-menu"
         data-toggle="dropdown">
@@ -47,10 +53,11 @@
         <li><a href="#">Logout</a></li>
       </ul>
     </div>
+    <!-- dropdown -->
 
     <hr />
 
-    <h2>Card design</h2>
+    <h2 class="title">Card design</h2>
     <div class="row">
       <div class="col-xs-12 col-sm-4">
         <div class="card">
@@ -83,16 +90,17 @@
         </div>
       </div>
     </div>
+    <!--/ card -->
 
     <hr />
 
-    <h2>Badge design</h2>
+    <h2 class="title">Badge design</h2>
     <img src="http://placehold.it/50x50" alt="" class="avatar">
     <span class="badge">3</span>
-
+    <!--/ badge -->
     <hr />
 
-    <h2>Banner design</h2>
+    <h2 class="title">Banner design</h2>
     <div class="banner">
       <div class="banner-content">
         <h1>Hello Friend</h1>
@@ -100,10 +108,11 @@
         <a href="#" class="btn-treehouse">Lorem ipsum</a>
       </div>
     </div>
+    <!--/ banner -->
 
     <hr />
 
-    <h2>Tabs design</h2>
+    <h2 class="title">Tabs design</h2>
     <div class="tabs">
       <div class="tabs-item active">
         <h3>350</h3>
@@ -122,10 +131,11 @@
         <p>followers</p>
       </div>
     </div>
+    <!--/ tabs -->
 
     <hr />
 
-    <h2>Simple List design</h2>
+    <h2 class="title">Simple List design</h2>
     <ul class="list-unstyled">
       <li class="product">
         <div class="product-description">
@@ -146,7 +156,7 @@
 
     <hr />
 
-    <h2>Complex List design</h2>
+    <h2 class="title">Complex List design</h2>
     <ul class="list-unstyled">
       <li class="product">
 
@@ -209,8 +219,149 @@
         </ul>
       </li>
     </ul>
+    <!--/ complex-list -->
+
+    <hr>
+
+    <h2 class="title">Message design</h2>
+    <div class="message">
+      <img class="avatar-lg" src="https://kitt.lewagon.com/placeholder/users/gabriel-dehan">
+      <div class="message-name">
+        <h3>Gab Dehan</h3>
+        <p>10/07/17</p>
+      </div>
+      <div class="message-body">
+        <p><strong>I am not sure yet!</strong></p>
+        <p>
+          I am not sure yet! I might be in Shanghai at this moment... Can I tell you later?
+        </p>
+      </div>
+      <div class="message-status">
+        <p class="status pending">Pending</p>
+        <p class="price">$345</p>
+      </div>
+    </div>
+    <div class="message">
+      <img src="https://kitt.lewagon.com/placeholder/users/cveneziani" alt="" class="avatar-lg">
+      <div class="message-name">
+        <h3>Cecile Veneziani</h3>
+        <p>23/09/17</p>
+      </div>
+      <div class="message-body">
+        <p><strong>I’ll be glad to welcome you in my cosy flat</strong></p>
+        <p>
+          I’ll be glad to welcome you in my cosy flat in Lille. When are you arriving exactly?
+        </p>
+      </div>
+      <div class="message-status">
+        <p class="status accepted">Accepted</p>
+        <p class="price">$345</p>
+      </div>
+    </div>
+    <!--/ message -->
+
+    <hr>
+
+    <h2 class="title">Navbar design</h2>
+    <div class="navbar-wa">
+      <!-- Logo -->
+      <a href="/" class="navbar-wa-brand">
+        <img src="https://via.placeholder.com/50x25.png?text=Logo" alt="logo">
+      </a>
+
+      <!-- Right Navigation -->
+      <div class="navbar-wa-right hidden-xs hidden-sm">
+
+        <a href="" class="navbar-wa-item navbar-wa-link">Host</a>
+        <a href="" class="navbar-wa-item navbar-wa-link">Trips</a>
+        <a href="" class="navbar-wa-item navbar-wa-link">Messages</a>
+
+        <!-- Profile picture with dropdown list -->
+        <div class="navbar-wa-item">
+          <div class="dropdown">
+            <!-- <i class="fa fa-bars avatar dropdown-toggle" id="navbar-wa-menu" data-toggle="dropdown"></i> -->
+            <img src="https://kitt.lewagon.com/placeholder/users/ssaunier" class="avatar dropdown-toggle"
+              id="navbar-wa-menu" data-toggle="dropdown">
+            <ul class="dropdown-menu dropdown-menu-right navbar-wa-dropdown-menu">
+              <li><a href="#">Profile</a></li>
+              <li><a href="#">Dashboard</a></li>
+              <li><a href="#">Log Out</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dropdown appearing on mobile only -->
+      <div class="navbar-wa-item hidden-md hidden-lg">
+        <div class="dropdown">
+          <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown" role="button"></i>
+          <ul class="dropdown-menu dropdown-menu-right navbar-wa-dropdown-menu">
+            <li><a href="#">Host</a></li>
+            <li><a href="#">Trips</a></li>
+            <li><a href="#">Messagese</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--/ navbar -->
+
+    <hr>
+
+    <h2 class="title">Footer design</h2>
+    <div class="footer">
+      <div class="footer-links center-block">
+        <a href="#"><i class="fa fa-github"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+      </div>
+      <!-- <div class="footer-copyright">
+        This footer is made with <i class="fa fa-heart"></i>
+      </div> -->
+    </div>
+    <!--/ footer -->
+
+    <hr>
+
+    <h2 class="title">Modal design</h2>
+    <!--/ modal  -->
+
+    <hr>
+
+    <h2 class="title">Searchbar design</h2>
+    <!--/ searchbar  -->
+
+    <hr>
+
+    <h2 class="title">Form design</h2>
+    <!--/ form  -->
+
+    <hr>
+
+    <h2 class="title">Table design</h2>
+    <!--/ table  -->
+
+    <hr>
+
+    <h2 class="title">Breadcrumb design</h2>
+    <!--/ breadcrumb  -->
+
+    <hr>
+
+    <h2 class="title">Pagination design</h2>
+    <!--/ pagination  -->
+
+
+
+
+
+
+
+
 
   </div>
+  <!--/ container -->
 
   <!-- scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
